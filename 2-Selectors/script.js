@@ -3,7 +3,11 @@
  * @returns randomColor 
  */
 function randomColor(){
-  let rgb = [parseInt((Math.random() * 256)),parseInt((Math.random() * 256)),parseInt((Math.random() * 256))];
+  let rgb = [
+    parseInt((Math.random() * 255)),
+    parseInt((Math.random() * 255)),
+    parseInt((Math.random() * 255))
+  ];
   let red = rgb[0].toString(16);
   let green = rgb[1].toString(16);
   let blue = rgb[2].toString(16);
